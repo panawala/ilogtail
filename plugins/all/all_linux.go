@@ -23,4 +23,5 @@ import (
 	_ "github.com/alibaba/ilogtail/plugins/input/journal"
 	_ "github.com/alibaba/ilogtail/plugins/input/snmp"
 	_ "github.com/alibaba/ilogtail/plugins/input/telegraf"
+	_ "github.com/alibaba/ilogtail/plugins/input/thirdpartyagent"
 )
