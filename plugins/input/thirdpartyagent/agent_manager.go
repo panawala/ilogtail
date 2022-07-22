@@ -114,7 +114,7 @@ func (am *AgentManager) reconcile() {
 }
 
 func (am *AgentManager) start() {
-	logger.Infof(context.Background(), "agent config start")
+	logger.Debugf(context.Background(), "agent config start")
 	_, _ = am.runAgentd(true, "start")
 }
 
